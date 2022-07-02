@@ -170,7 +170,7 @@
         >
     </form>
 
-    <form action="">
+    <form action="/todos/{todo.uid}?_method=delete" method="POST">
         <button aria-label="Delete todo" class="delete"
             ><svg
                 xmlns="http://www.w3.org/2000/svg"
