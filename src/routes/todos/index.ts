@@ -1,8 +1,7 @@
 import type { RequestHandler } from "@sveltejs/kit"
 import { api } from "./_api"
 
-// TODO : PERSIST DATA IN DATABASE
-let todos: Todo[] = []
+
 
 export const get: RequestHandler = ({ request }) => {
     return api(request)
