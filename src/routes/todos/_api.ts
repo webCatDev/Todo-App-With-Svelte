@@ -12,7 +12,7 @@ export const api = (request: Request, todo?: Todo, params?: any) => {
             status = 200
             break
         case "POST":
-            if(!todo){
+            if(todo){
 
                 todos.push(todo)
             }
